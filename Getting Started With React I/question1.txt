@@ -1,0 +1,44 @@
+Question 1:- What is React?
+Answer :- React is Javascript library and they are make a user interface and it
+          is a single page application and they are most popular in this time.
+
+Question 2:- Who made React?
+Answer :- Jordan walke and it was work on facebook company.
+
+Question 3:- What is Babel?
+Answer :- Babel is the Javascript compiller that allow the write the code 
+          lastest javscript on syntax and they are transform of javscript on 
+          different browser.
+
+Question 4:- How does Babel convert html code in React into valid code?
+Answer :- Babel is the transformation code of Javascript. to handle the html or 
+          jsx is used to html tag to jsx code and they are transformation to browser easily read.
+
+Question 5:- What is ReactDOM used for? Write an example?
+Answer :- it is the packages of react that provides specific method of react to
+          the render the component.
+
+Question 6:- What are the packages that you need to import for react to work with?
+Answer :- they are need the packages react or react dom and they packages are use to create  
+          create single application and react is the library to building a component and react dom is used the render the component.
+
+Question 7:- How do you add react to a web application?
+Answer :- yes i am add a react on web application within in a few minutes and
+          they are need a react and react dom libraies and they are few change of react on website on easily convert of react and they are use react component and render the
+          html dom.
+
+
+Question 8:- What is React.createElement?
+Answer :- React.createElement is the method to create a html element and they are also 
+          create css properties and they are three argument in react first one is 
+          html , second is a react component properties(props) and last is children.
+
+Question 9:- What are the three properties that createElement accept?
+Answer :- they are three properties that createElement 
+        1. Element Type :- it is the represent type of html tag or react component.
+        2. Properties(Type):- it is defined on element on properties or attributes.  
+        3. Children :- the child element is the nested within the html element.
+
+Question 10:- What is the meaning of render and root?
+Answer :- it the process of react dom to the html element display the screen and the root
+          is target the place where to render the html code on which place so they are inside to the render on them. they are display the react dom on screen.

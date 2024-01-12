@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+    <style>
+        #parent::before {
+            content: "Parent";
+            top: 10px;
+            left: 10px;
+            position: absolute;
+            font-size: 36px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+        const domContainer = document.getElementById("root");
+
+        const elem =
+            React.createElement("div",
+                {
+                    style: {
+                        display: "flex",
+                        margin: "20px 0",
+                        backgroundColor: "#fee3c5",
+                        border: "1px solid #000",
+                        height: "200px",
+                        padding: "20px 0",
+                        alignItems: "center",
+                        position: "relative",
+                        justifyContent: "center",
+                    },
+                    id: "parent"
+                }, [
+                React.createElement("div", {
+                    style: {
+                        width: "180px",
+                        height: "180px",
+                        border: "2px solid #000",
+                        margin: "20px",
+                        fontSize: "28px",
+                        padding: " 10px",
+                        background: "red"
+                    },
+                    children: "1",
+                    key: "1"
+                },)
+                ,
+                React.createElement("div", {
+                    style: {
+                        width: "180px",
+                        height: "180px",
+                        border: "2px solid #000",
+                        margin: "20px",
+                        fontSize: "28px",
+                        padding: " 10px",
+                        background: "#fffe35"
+                    },
+                    children: "2",
+                    key: "2"
+                },)
+                ,
+                React.createElement("div", {
+                    style: {
+                        width: "180px",
+                        height: "180px",
+                        border: "2px solid #000",
+                        margin: "20px",
+                        fontSize: "28px",
+                        padding: " 10px",
+                        background: "#228117"
+                    },
+                    children: "3",
+                    key: "3"
+                },)
+                ,
+                React.createElement("div", {
+                    style: {
+                        width: "180px",
+                        height: "180px",
+                        border: "2px solid #000",
+                        margin: "20px",
+                        fontSize: "28px",
+                        padding: " 10px",
+                        background: "#7c007e"
+                    },
+                    children: "4",
+                    key: "4"
+                },)
+            ]
+            );
+
+        const reactRoot = ReactDOM.createRoot(domContainer);
+
+        reactRoot.render(elem)
+    </script>
+</body>
+
+</html>
